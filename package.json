@@ -1,0 +1,19 @@
+{
+  "name": "american-english",
+  "version": "1.0.0",
+  "description": "Easily check American / English spelling differences",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kritzware/american-english.git"
+  },
+  "author": "Louis Bluhm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kritzware/american-english/issues"
+  },
+  "homepage": "https://github.com/kritzware/american-english#readme"
+}
