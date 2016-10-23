@@ -1,6 +1,6 @@
 {
   "name": "american-english",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily check American / English spelling differences",
   "main": "index.js",
   "scripts": {

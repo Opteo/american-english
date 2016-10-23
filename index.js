@@ -3,28 +3,28 @@
 module.exports = {	
 
 	toUS : function(english_word) {
-		if(this.us_spelling[english_word]) {
-			return this.us_spelling[english_word];
+		if(this.us_spelling[english_word.toLowerCase()]) {
+			return this.us_spelling[english_word.toLowerCase()];
 		}
 		return 'word_not_found';
 	},
 
 	toUK : function(us_word) {
-		if(this.uk_spelling[us_word]) {
-			return this.uk_spelling[us_word];
+		if(this.uk_spelling[us_word.toLowerCase()]) {
+			return this.uk_spelling[us_word.toLowerCase()];
 		}
 		return 'word_not_found';
 	},
 
 	hasUSDifference : function(english_word) {
-		if(this.us_spelling[english_word]) {
+		if(this.us_spelling[english_word.toLowerCase()]) {
 			return true;
 		}
 		return false;
 	},
 
 	hasUKDifference : function(us_word) {
-		if(this.uk_spelling[us_word]) {
+		if(this.uk_spelling[us_word.toLowerCase()]) {
 			return true;
 		}
 		return false;
